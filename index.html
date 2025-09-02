@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Digital - Elias Gil</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+        header { background: #1e293b; color: #fff; padding: 20px; text-align: center; }
+        h1 { margin: 0; font-size: 2em; }
+        .container { width: 90%; max-width: 1000px; margin: 20px auto; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        .card h2 { margin-top: 0; font-size: 1.5em; }
+        .price { font-size: 1.2em; color: #16a34a; margin: 10px 0; }
+        .btn { display: inline-block; padding: 10px 15px; background: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #1e40af; }
+        footer { background: #1e293b; color: #fff; text-align: center; padding: 15px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda Digital de Elias Gil</h1>
+        <p>Productos digitales listos para ti</p>
+    </header>
+
+    <div class="container">
+        <div class="products">
+            <!-- Producto 1 -->
+            <div class="card">
+                <h2>📂 Pack de Plantillas Pro</h2>
+                <p>Colección de plantillas listas para usar en Word, Excel y más.</p>
+                <p class="price">S/49</p>
+                <a href="https://eliasgil.gumroad.com/l/hkelu" target="_blank" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="card">
+                <h2>📖 Mini eBook “Emprende en 30 días”</h2>
+                <p>Guía práctica con pasos simples para iniciar tu negocio online.</p>
+                <p class="price">S/25</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="card">
+                <h2>🎥 Mini-curso Redes Sociales</h2>
+                <p>Aprende a manejar redes sociales y atraer clientes.</p>
+                <p class="price">S/60</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>📧 Contacto: <a href="mailto:eliasgilperez@gmail.com" style="color:white;">eliasgilperez@gmail.com</a></p>
+        <p>© 2025 Tienda Digital de Elias Gil</p>
+    </footer>
+</body>
+</html>
